@@ -9,7 +9,7 @@ function calculate(button) {
     screenDisplay.value = calculation;
   } else if (value === "=") {
     if (calculation[0] == "*" || calculation[0] == "/") {
-      alert("");
+      alert("Invalid Input");
     } else {
       if (eval(calculation.join("")) || eval(calculation.join("")) === 0) {
         screenDisplay.value = eval(calculation.join(""));
