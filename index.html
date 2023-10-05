@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <h1>Calc</h1>
+      </div>
+      <div class="contain">
+        <div class="upperInputContainer">
+          <input
+            type="text"
+            class="displayResult"
+            placeholder="0"
+            dir="ltr"
+            disabled
+            readonly />
+        </div>
+
+        <div id="calcButton" class="bottomButtonContainer">
+          <div class="upperCells">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="delete button">DEL</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">+</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">-</button>
+            <button class="button">.</button>
+            <button class="button">0</button>
+            <button class="button">/</button>
+            <button class="button">*</button>
+          </div>
+          <div class="bottomCells">
+            <button class="reset button">Reset</button>
+            <button class="equal button">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
